@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3e5f5;
+    color: #4a148c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #7b1fa2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #d1c4e9;
+    margin: 20px 0;
+}
+
+.struk {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.struk-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.struk-item .key {
+    font-weight: bold;
+    color: #7b1fa2;
+}
+
+.struk-item .value {
+    color: #4a148c;
+}
